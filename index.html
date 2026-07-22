@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>SentinelAI</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+<header>
+    SentinelAI
+</header>
+
+<div class="container">
+
+    <div class="card">
+        <h2>Threat Level</h2>
+        <p id="threatLevel" class="high">HIGH 🔴</p>
+    </div>
+
+    <div class="card">
+        <h2>Risk Score</h2>
+        <h1 id="riskScore">92%</h1>
+    </div>
+
+    <div class="card">
+        <h2>Live Security Logs</h2>
+
+        <div id="logs">
+
+        </div>
+
+    </div>
+
+    <div class="card">
+        <h2>AI Incident Report</h2>
+
+        <button id="analyzeBtn">Analyze Threat</button>
+
+        <div id="report" style="margin-top:15px;">
+            Click Analyze to generate an AI security report.
+        </div>
+    </div>
+
+    <div class="card">
+        <h2>MITRE ATT&CK</h2>
+
+        <h3 id="mitreId">T1110</h3>
+
+        <p id="mitreName">Brute Force</p>
+
+        <p id="confidence">Confidence: 91%</p>
+
+    </div>
+
+    <div class="card">
+    <h2>Attack Origins</h2>
+
+    <p>🇷🇺 Moscow</p>
+    <p>██████████</p>
+
+    <p>🇨🇳 Beijing</p>
+    <p>██████</p>
+
+    <p>🇺🇸 California</p>
+    <p>███</p>
+
+    </div>
+
+</div>
+<script src="script.js"></script>
+</body>
+</html>
